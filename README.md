@@ -8,19 +8,19 @@ El Navbar consta de las secciones: Inicio (Padre Html), Laboratorio, Medico, Pac
 
 Para agregar items a la base de datos se puede realizar desde las siguientes urls:
 
-Laboratorio: http://127.0.0.1:8000/setLaboratorio
+Laboratorio: http://127.0.0.1:8000/Oncoliq/setLaboratorio
 
-Medico: http://127.0.0.1:8000/setMedico
+Medico: http://127.0.0.1:8000/Oncoliq/setMedico
 
-Paciente: http://127.0.0.1:8000/setPaciente
+Paciente: http://127.0.0.1:8000/Oncoliq/setPaciente
 
 Para buscar items de la base de datos se puede realizar desde las siguientes urls:
 
-Laboratorio: http://127.0.0.1:8000/getLaboratorio
+Laboratorio: http://127.0.0.1:8000/Oncoliq/getLaboratorio
 
-Medico: http://127.0.0.1:8000/getMedico
+Medico: http://127.0.0.1:8000/Oncoliq/getMedico
 
-Paciente: http://127.0.0.1:8000/getPaciente
+Paciente: http://127.0.0.1:8000/Oncoliq/getPaciente
 
 Los Modelos de la BD son los siguientes:
 
