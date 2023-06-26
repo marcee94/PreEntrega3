@@ -1,0 +1,16 @@
+<div>
+    {% extends "Oncoliq/paciente/paciente.html" %}
+    {% load static %}
+
+    {% block setPaciente %}
+        <p>Crear Paciente</p>
+        <form action="/Oncoliq/setPaciente/"    method="POST">{% csrf_token %}
+            <table>
+                {{ miForm2.as_table }}
+            </table>
+
+            <input type = "submit" value="Enviar">
+         </form>
+         
+    {% endblock %} 
+</div>

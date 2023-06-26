@@ -1,0 +1,16 @@
+<div>
+    {% extends "Oncoliq/inicio.html" %}
+    {% load static %}
+    
+        {% block contenidoQueCambia %}
+        <p>Laboratorio</p>
+        <div class="formSetLaboratorio">
+            {% block setLaboratorio %}
+            {% endblock %}      
+        </div>
+        <div class="formGetLaboratorio">
+            {% block getLaboratorio %}
+            {% endblock %}      
+        </div>
+        {% endblock %}
+</div>
